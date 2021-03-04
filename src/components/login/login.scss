@@ -1,0 +1,41 @@
+
+.wrapper-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background: url("../../images/1078069.jpg") center no-repeat;
+  background-size:cover;
+}
+.container-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 30px 40px;
+  background-color:rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  color: white;
+  h2 {
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+  }
+  .container-input {
+    width: 300px;
+    margin: 15px 0;
+  }
+  .error-submit {
+    color: #ff7661;
+  }
+  .btn-submit {
+    margin-top: 20px;
+    background-color: #4673fa;
+    &:hover {
+      background-color: #6188ff;
+    }
+  }
+}
+.textField_input {
+  background-color: white;
+}
